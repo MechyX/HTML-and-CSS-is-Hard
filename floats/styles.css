@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #EAEDF0;
+}
+
+.container {
+  overflow: hidden;
+  background-color: #EAEDF0;
+}
+
+.menu {
+  height: 100px;
+  margin: 0 auto;
+  background-color: #B2D6FF;    /* Medium blue */
+  font-size: 50px;
+  padding : 15px;
+  font-family: Arial;
+}
+
+.sidebar {
+  float: left;
+  width: 200px;
+  height: 300px;
+  background-color: #F09A9D;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.content {
+  padding: 20px;
+  float: left;
+  width: 650px;
+  height: 500px;
+  background-color: #F5CF8E;    /* Yellow */
+}
+
+.article-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: solid 1px black;
+}
+
+p {
+  margin-bottom: 20px;
+  font-family: Arial;
+}
+
+
+.footer {
+  background-color: #D6E9FE;    /* Light blue */
+  overflow: hidden;
+}
+
+.footer-item {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #B2D6FF;    /* Medium blue */
+}
+
+.avatar {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 25px;
+  border-radius: 40px;
+  background-color: #D6E9FE;
+}
+
+.username {
+  margin-top: 30px;
+  font-family: Arial;
+}
+
+.comment {
+  margin: 10px;
+  overflow: hidden;
+}
+
+
+/* ALWAYS REMEMBER */
+/*
+Block boxes always appear below the previous block element.
+This is the “natural” or “static” flow of an HTML document when it gets rendered by a web browser.
+
+The width of block boxes is set automatically based on the width of its parent container.
+ In this case, our blocks are always the width of the browser window.
+
+The default height of block boxes is based on the content it contains.
+When you narrow the browser window, the <h1> gets split over two lines, and its height adjusts accordingly.
+
+Inline boxes don’t affect vertical spacing.
+They’re not for determining layout—they’re for styling stuff inside of a block.
+
+The width of inline boxes is based on the content it contains,
+not the width of the parent element.
+ */
